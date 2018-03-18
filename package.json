@@ -1,0 +1,25 @@
+{
+  "name": "mario",
+  "version": "1.0.0",
+  "description": "planszówka, prezentacja",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JacekSzczepaniak/prezentacja-mario.git"
+  },
+  "keywords": [
+    "mario",
+    "prezentacja"
+  ],
+  "author": "jacek szczepaniak",
+  "license": "ISC",
+  "dependencies": {
+    "phaser": "^3.2.1"
+  }
+}
