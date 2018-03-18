@@ -20,6 +20,6 @@
   "author": "jacek szczepaniak",
   "license": "ISC",
   "dependencies": {
-    "phaser": "^3.2.1"
+    "phaser": "2.6.2"
   }
 }
