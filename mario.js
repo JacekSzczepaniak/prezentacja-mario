@@ -1,5 +1,3 @@
-console.log('start');
-
 var game = new Phaser.Game(800, 600, Phaser.CANVAS, 'container', { preload: preload, create: create, update: update, render: render });
 console.log(game);
 
@@ -17,13 +15,12 @@ console.log(game);
 			var cursors;
 
 			function create() {
-console.log('create')
+
 				game.physics.startSystem(Phaser.Physics.ARCADE);
 
 				game.stage.backgroundColor = '#787878';
 
 				map = game.add.tilemap('mario');
-
 				map.addTilesetImage('SuperMarioBros-World1-1', 'tiles');
 
 				//  14 = ? block
@@ -45,7 +42,7 @@ console.log('create')
 
 				game.physics.enable(p);
 
-				game.physics.arcade.gravity.y = 250;
+				game.physics.arcade.gravity.y = 25;
 
 				p.body.bounce.y = 0.2;
 				p.body.linearDamping = 1;
